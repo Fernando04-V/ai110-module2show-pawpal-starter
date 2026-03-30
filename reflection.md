@@ -7,6 +7,9 @@
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
 
+- Response to both prompts
+-   - The inital UML diagram will consits of four classes: Owner, Pet, Task, and Scheduler. Each class will be responsible of holding crucial information respectively and all of them except for scheduler will have methods that will help in application. 
+
 **b. Design changes**
 
 - Did your design change during implementation?

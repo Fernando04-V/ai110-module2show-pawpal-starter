@@ -26,10 +26,16 @@
 - What constraints does your scheduler consider (for example: time, priority, preferences)?
 - How did you decide which constraints mattered most?
 
+- Response to both prompts
+    - The scheduler considers the following constraints: Time conflicts, completion state of tasks, a task's due date, and overdue. The constraint that i believe mattered the most was the time conflict one because an issue may arise in the use of the application where an user schedulues a task at the same time as another schedulued task
+
 **b. Tradeoffs**
 
 - Describe one tradeoff your scheduler makes.
 - Why is that tradeoff reasonable for this scenario?
+
+- Response to both prompts
+    - A tradeoff that the scheduler makes has to do with the 15-minute conflict window. The benefit in this implementation comes from the assumption that it takes at most 15 minutes to prepare for a task. It gives employess time to prepare and avoid tasks being cramped in a time frame. Although a case may be presented where two tasks can be done back-to-back on paper, it is not realistic. In other words, i am tradding off more tasks being done for organization and for a cleanre schedule structure.
 
 ---
 

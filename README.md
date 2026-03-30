@@ -50,3 +50,23 @@ pip install -r requirements.txt
     - Recurring tasks
     - Detect time conflict
 
+### Testing PawPal+
+
+## Command to run tests: python -m pytest
+
+## Description of what the tests cover
+- test_task_completion: A new task starts incomplete and calls .complete() to marks it done.
+
+- test_task_addition_increases_pet_task_count: A pet list starts with 0 tasks and appending one brings the count to 1.
+
+- test_sort_by_time_returns_chronological_order: Three tasks added out of order are returned earliest-first by sort_by_time().
+
+- test_complete_and_recur_creates_next_day_task: Completing a daily task auto-schedules an identical task exactly 24 hours later.
+
+- test_conflict_detection_flags_tasks_within_15_minutes: Two tasks only 10 minutes apart trigger a conflict warning naming the overlapping task.
+
+- test_no_conflict_when_tasks_are_far_apart: Two tasks 10 hours apart produce zero warnings.
+
+## Confidence lelvel for the system's reliability based on the test results: 5
+
+

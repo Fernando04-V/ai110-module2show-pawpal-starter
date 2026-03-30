@@ -27,7 +27,7 @@
 - How did you decide which constraints mattered most?
 
 - Response to both prompts
-    - The scheduler considers the following constraints: Time conflicts, completion state of tasks, a task's due date, and overdue. The constraint that i believe mattered the most was the time conflict one because an issue may arise in the use of the application where an user schedulues a task at the same time as another schedulued task
+    - The scheduler considers the following constraints: Time conflicts, a task's due date, and overdue. The constraint that i believe mattered the most was the time conflict one because an issue may arise in the use of the application where an user schedulues a task at the same time as another schedulued task
 
 **b. Tradeoffs**
 

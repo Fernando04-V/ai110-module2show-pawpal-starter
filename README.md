@@ -69,4 +69,23 @@ pip install -r requirements.txt
 
 ## Confidence lelvel for the system's reliability based on the test results: 5
 
+## Features
+Task Scheduling — Assign care tasks (feeding, grooming, exercise, vet visits, and more) to any pet with a title, type, due time, and optional description.
+
+Recurring Tasks — Tasks marked daily, weekly, or monthly automatically generate their next occurrence when completed, calculated from the original due date to keep timing consistent.
+
+Conflict Detection — Before any task is added, the scheduler checks all existing tasks within a configurable window (default: 15 minutes). Overlapping tasks surface a human-readable warning in the UI instead of silently overwriting each other.
+
+Chronological Sorting — The full task queue (or any filtered subset) can be sorted earliest-to-latest by due date without modifying the original list.
+
+Filtering by Pet and Status — Tasks can be narrowed by pet ID and/or status (pending, completed, overdue) independently or in combination.
+
+Overdue Detection — Any incomplete task whose due date has passed is automatically flagged as overdue, both in filters and in the daily schedule view.
+
+Multi-Pet Support — An owner can manage any number of pets, each with their own independent task list. Cross-pet conflict checking is also supported.
+
+Streamlit Dashboard — A live web UI lets users add pets, schedule tasks, pick filter options, and view today's sorted schedule in a labeled table with Pending / Completed / Overdue summary metrics.
+
+## Location of uml-final.png: pictures/uml_final.png
+
 
